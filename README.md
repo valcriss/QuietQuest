@@ -80,7 +80,7 @@ My son loves playing video games in his room, but sometimes he shouts so loudly 
 
 ## Contributing
 
-Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/valcriss/QuietQuest). Suggestions for new penalties and improvements are welcome!
+Feel free to submit issues or pull requests on this repository. Suggestions for new penalties and improvements are welcome!
 
 ## License
 

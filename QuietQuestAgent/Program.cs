@@ -17,6 +17,7 @@ namespace QuietQuestAgent
             var config = new Config();
             var audioMonitor = new AudioMonitor(() => config.Threshold);
             audioMonitor.ListAvailableDevices();
+            var LastRaisedEvent = DateTime.Now;
             var currentAlertCount = 0;
             var penalties = new List<IPenalty>
             {
@@ -35,6 +36,8 @@ namespace QuietQuestAgent
             {
                 if (!config.Active) return;
                 if (penaltyManager.IsPenaltyRunning) return;
+                if (DateTime.Now.Subtract(LastRaisedEvent).TotalSeconds < 30) return;
+                LastRaisedEvent = DateTime.Now;
                 currentAlertCount++;
                 if(currentAlertCount >= config.AlertCount)
                 {

@@ -76,13 +76,11 @@ My son loves playing video games in his room, but sometimes he shouts so loudly 
 
 ## Troubleshooting
 
-- **Service fails to start**: run `QuietQuest.ClientService.exe --console` to view errors
 - **Agent overlay not showing**: ensure agent is running in the user session and not blocked by antivirus
-- **Permission issues**: verify both installer runs as Administrator and service is set to LocalSystem
 
 ## Contributing
 
-Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/yourusername/QuietQuest). Suggestions for new penalties and improvements are welcome!
+Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/valcriss/QuietQuest). Suggestions for new penalties and improvements are welcome!
 
 ## License
 

@@ -21,7 +21,6 @@ My son loves playing video games in his room, but sometimes he shouts so loudly 
   - Deliver troll voice messages with humorous advice — "Try whispering next time" meets dad jokes on demand 🎙️😈
 - **Agent–Admin architecture**: two apps in perfect harmony — the agent in your son's session applies the fun effects, while the admin client on your PC pulls the strings like a puppet master 🕹️👔
 - **Remote administration**: micromanage his volume from anywhere on your local network — because who needs parental prowess when you have Wi-Fi? 📶🛋️
-- **Secure deployment**: installed with admin rights and locked down tighter than Fort Knox — he won't even know where to begin to disable it 🔐🏰
 
 ## Architecture Overview
 
